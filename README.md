@@ -3,9 +3,12 @@
 <!-- endhide -->
 
 - This project dataset has a lot of features related to socio demographic and health resources data by county in the United States, right before the Covid-19 pandemic started (data from 2018 and 2019). Do you think any of them impact on the number of health resources each county has?
-- We want to discover if there is any relationship between health resouces and socio demographic data. Choose one target variable (related to health resources).
-- Let's find which of the other features have more impact in our target variable. Use Lasso model to include some feature selection and avoid overfitting.
-- Finally, create a pipeline for your LASSO model and put it in you app.py file. 
+
+- We want to discover if there is any relationship between health resouces and socio demographic data. Choose one target variable (related to health resources), and use the LASSO model to reduce features to the most important ones for your target.
+
+- Find the parameters for your linear regression.
+
+- Finally, create a pipeline for your model and put it in you app.py file. 
 
 ## 🌱  How to start this project
 
@@ -43,7 +46,9 @@ Don't forget to write your observations.
 
 Now that you have a better knowledge of the data, apply the LASSO model which already includes feature selection to obtain the most important features that influence in your target variable. 
 
->This time we are not going to predict anything, but don't forget to drop all the features related to health resources from your X (features) dataset, and define your chosen target as your 'y'.
+>We are not going to predict anything, but don't forget to drop all the features related to health resources from your X (features) dataset, and define your chosen target as your 'y'.
+
+Use ordinary least squares regression to choose the parameters that minimize the error of a linear function.
 
 **Step 4:**
 
