@@ -25,7 +25,7 @@ Once you are finished creating your model, make sure to commit your changes, pus
 
 **U.S.A. county level sociodemographic and health resource data (2018-2019)**
 
-There is a 'data-dictionary' file in this folder that explains the meaning of each feature. You need to select one of the features related to health resources as your target variable and then use the LASSO regression to discover which features are the most important as factors to explain your target variable. 
+There is a 'data-dictionary' ([click here to open](https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/Data-Dictionary.csv)) that explains the meaning of each feature. You need to select one of the features related to health resources as your target variable and then use the LASSO regression to discover which features are the most important as factors to explain your target variable. 
 
 **Step 1:**
 
