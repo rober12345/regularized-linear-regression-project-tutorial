@@ -56,4 +56,6 @@ Use the app.py to create your pipeline that selects the most important features.
 Save your final model in the 'models' folder.
 
 In your README file write a brief summary.
+
+Solution guide: https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/solution_guide.ipynb
  
