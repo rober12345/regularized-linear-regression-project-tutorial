@@ -2,7 +2,7 @@
 # Regularized Linear Regression Project Tutorial
 <!-- endhide -->
 
-- This project dataset has a lot of features related to socio demographic and health resources data by county in the United States, right before the Covid-19 pandemic started (data from 2018 and 2019). 
+- This project dataset has a lot of features related to socio demographic and health resources data by county in the United States, right before the Covid-19 pandemic started (data from 2018 and 2019). It was taken from the WIDS 2022 competition on Kaggle.
 
 - We want to discover if there is any relationship between health resources and socio demographic data. Choose one target variable (related to health resources), and use the LASSO model to reduce features to the most important ones for your target.
 
