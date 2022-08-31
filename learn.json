@@ -9,5 +9,6 @@
 	"difficulty": "beginner",
 	"syntax": "python",
 	"duration" : 2,
+    "projectType": "project",
 	"description" : "Use a dataset with a lot of variables to practice your regularized linear regression skills and select only some of the features for your model"
 }
