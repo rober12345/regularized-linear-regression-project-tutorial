@@ -8,7 +8,6 @@
 
 - Find the parameters for your linear regression between your selected features and your chosen target.
 
-
 ## 🌱  How to start this project
 
 You will not be forking this time, please take some time to read this instructions:
@@ -39,7 +38,7 @@ Use the explore.ipynb notebook to find correlations between features or between 
 
 Don't forget to write your observations.
 
->Consider doing feature scaling before applying LASSO.
+> Consider doing feature scaling before applying LASSO.
 
 **Step 3:**
 
