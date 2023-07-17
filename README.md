@@ -1,60 +1,48 @@
 <!-- hide -->
-# Regularized Linear Regression Project Tutorial
+# Regularized linear regression
 <!-- endhide -->
 
-- This project dataset has a lot of features related to socio demographic and health resources data by county in the United States, right before the Covid-19 pandemic started (data from 2018 and 2019). It was taken from the WIDS 2022 competition on Kaggle.
-
-- We want to discover if there is any relationship between health resources and socio demographic data. Choose one target variable (related to health resources), and use the LASSO model to reduce features to the most important ones for your target.
-
-- Find the parameters for your linear regression between your selected features and your chosen target.
+- Understand a new dataset.
+- Process it by applying exploratory data analysis (EDA).
+- Model the data using logistic regression.
+- Analyze the results and optimize the model.
 
 ## 🌱  How to start this project
 
-You will not be forking this time, please take some time to read this instructions:
+You will not be forking this time, please take some time to read these instructions:
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Open the recently created repostiroy on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
-3. Once Gitpod VSCode has finished opening you start your project following the Instructions below.
+2. Open the recently created repository on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
+3. Once Gitpod VSCode has finished opening, start your project following the Instructions below.
 
 ## 🚛 How to deliver this project
 
-Once you are finished creating your model, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
+Once you are finished creating your linear regression model, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
 
 ## 📝 Instructions
 
-**U.S.A. county level sociodemographic and health resource data (2018-2019)**
+### US county-level sociodemographic and health resource data (2018-2019).
 
-There is a 'data-dictionary' ([click here to open](https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/Data-Dictionary.csv)) that explains the meaning of each feature. You need to select one of the features related to health resources as your target variable and then use the LASSO regression to discover which features are the most important as factors to explain your target variable. 
+Sociodemographic and health resource data have been collected by county in the United States and we want to find out if there is any relationship between health resources and sociodemographic data.
 
-**Step 1:**
+To do this, you need to set a target variable (health-related) to conduct the analysis.
 
-The dataset can be found in this project folder as 'dataset.csv' file. You are welcome to load it directly from the link (https://raw.githubusercontent.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/main/dataset.csv), or to download it and add it to your data/raw folder. In that case, don't forget to add the data folder to the .gitignore file.
+#### Step 1: Loading the dataset
 
-Time to work on it!
+The dataset can be found in this project folder under the name `demographic_health_data.csv`. You can load it into the code directly from the link (`https://raw.githubusercontent.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/main/demographic_health_data.csv`) or download it and add it by hand in your repository. In this dataset you will find a large number of variables, which you will find defined [here](https://raw.githubusercontent.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/main/data_dict.csv).
 
-**Step 2:**
+#### Step 2: Perform a full EDA
 
-Use the explore.ipynb notebook to find correlations between features or between feature and your chosen target.
+This second step is vital to ensure that we keep the variables that are strictly necessary and eliminate those that are not relevant or do not provide information. Use the example Notebook we worked on and adapt it to this use case.
 
-Don't forget to write your observations.
+Be sure to conveniently divide the data set into `train` and `test` as we have seen in previous lessons.
 
-> Consider doing feature scaling before applying LASSO.
+#### Step 3: Build a regression model
 
-**Step 3:**
+Start solving the problem by implementing a linear regression model and analyze the results. Then, using the same data and default attributes, build a Lasso model and compare the results with the baseline linear regression.
 
-Now that you have a better knowledge of the data, apply the LASSO model which already includes feature selection to obtain the most important features that influence in your target variable. 
+Analyze how $R^2$ evolves when the hyperparameter of the Lasso model changes (you can for example start testing from a value of 0.0 and work your way up to a value of 20). Draw these values in a line diagram.
 
->We are not going to predict anything, but don't forget to drop all the features related to health resources from your X (features) dataset, and define your chosen target as your 'y'.
+#### Step 4: Optimize the previous model
 
-Use ordinary least squares regression to choose the parameters that minimize the error of a linear function.
-
-**Step 4:**
-
-Use the app.py to create your pipeline that selects the most important features. 
-
-Save your final model in the 'models' folder.
-
-In your README file write a brief summary.
-
-Solution guide: https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/solution_guide.ipynb
- 
+After training the Lasso model, if the results are not satisfactory, optimize it using one of the techniques seen above.

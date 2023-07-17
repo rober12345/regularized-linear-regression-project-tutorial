@@ -1,12 +1,11 @@
 <!-- hide -->
-# Regularized Linear Regression Project Tutorial
+# Regresión lineal regularizada
 <!-- endhide -->
 
-- Este conjunto de datos del proyecto tiene muchas características relacionadas con los datos sociodemográficos y de recursos de salud por condado en los Estados Unidos, justo antes de que comenzara la pandemia de Covid-19 (datos de 2018 y 2019). Fue tomado de la competencia WIDS 2022 en Kaggle.
-
-- Queremos descubrir si existe alguna relación entre los recursos sanitarios y los datos sociodemográficos. Elije una variable objetivo (relacionada con los recursos de salud) y usa el modelo LASSO para reducir las características a las más importantes para tu objetivo.
-
-- Encuentra los parámetros para tu regresión lineal entre tus características seleccionadas y tu objetivo elegido.
+- Comprender un dataset nuevo.
+- Procesarlo aplicando un análisis exploratorio (EDA).
+- Modelar los datos utilizando la regresión lineal regularizada.
+- Analizar los resultados y optimizar el modelo.
 
 ## 🌱  Cómo iniciar este proyecto
 
@@ -20,40 +19,30 @@ Esta vez no se hará Fork, tómate un tiempo para leer estas instrucciones:
 
 Una vez que hayas terminado de resolver los ejercicios, asegúrate de confirmar tus cambios, hazle "push" a el fork de tu repositorio y ve a 4Geeks.com para subir el enlace del repositorio.
 
-## 📝 Instrucciones
+## 📝 Instructions
 
-**Datos sociodemográficos y de recursos de salud a nivel de condado de EE. UU. (2018-2019)**
+### Datos sociodemográficos y de recursos de salud a nivel de condado de EE. UU. (2018-2019)
 
-Hay un 'diccionario de datos' ([haz clic aquí para abrir](https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/Data-Dictionary.csv)) que explica el significado de cada característica. Debes seleccionar una de las características relacionadas con los recursos de salud como su variable objetivo y luego usar la regresión LASSO para descubrir qué características son las más importantes como factores para explicar su variable objetivo.
+Se han recopilado datos sociodemográficos y de recursos de salud por condado en los Estados Unidos y queremos descubrir si existe alguna relación entre los recursos sanitarios y los datos sociodemográficos.
 
-**Paso 1:**
+Para ello, es necesario que establezcas una variable objetivo (relacionada con la salud) para llevar a cabo el análisis.
 
-El conjunto de datos se puede encontrar en esta carpeta de proyecto como archivo 'dataset.csv'. Te invitamos a cargarlo directamente desde el enlace (https://raw.githubusercontent.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/main/dataset.csv), o para descargarlo y agregarlo a tu carpeta data/raw. En ese caso, no olvides agregar la carpeta de datos al archivo .gitignore.
-¡Es hora de trabajar en ello!
+#### Paso 1: Carga del conjunto de datos
 
-**Paso 2:**
+El conjunto de datos se puede encontrar en esta carpeta de proyecto bajo el nombre `demographic_health_data.csv`. Puedes cargarlo en el código directamente desde el enlace (`https://raw.githubusercontent.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/main/demographic_health_data.csv`) o descargarlo y añadirlo a mano en tu repositorio. En este conjunto de datos encontrarás una gran cantidad de variables, que encontrarás definidas [aquí](https://raw.githubusercontent.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/main/data_dict.csv).
 
-Utiliza el notebook explore.ipynb para encontrar correlaciones entre funciones o entre funciones y el objetivo elegido.
+#### Paso 2: Realiza un EDA completo
 
-No olvides escribir tus observaciones.
+Este segundo paso es vital para asegurar que nos quedamos con las variables estrictamente necesarias y eliminamos las que no son relevantes o no aportan información. Utiliza el Notebook de ejemplo que trabajamos y adáptalo a este caso de uso.
 
-> Considera escalar características antes de aplicar LASSO.
+Asegúrate de dividir convenientemente el conjunto de datos en `train` y `test` como hemos visto en lecciones anteriores.
 
-**Paso 3:**
+#### Paso 3: Construye un modelo de regresión
 
-Ahora que tienes un mejor conocimiento de los datos, aplica el modelo LASSO que ya incluye la selección de características para obtener las características más importantes que influyen en tu variable objetivo.
+Comienza a resolver el problema implementando un modelo de regresión lineal y analiza los resultados. A continuación, utilizando los mismos datos y los atributos por defecto, construye un modelo Lasso y compara los resultados con la regresión lineal base.
 
-> No vamos a predecir nada, pero no olvides descartar todas las características relacionadas con los recursos de salud de tu conjunto de datos X (características) y define tu objetivo elegido como su 'y'.
+Analiza cómo evoluciona el $R^2$ cuando el hiperparámetro del modelo Lasso cambia (puedes por ejemplo empezar a probar desde el valor 0.0 e ir aumentándolo hasta un valor de 20). Dibuja estos valores en un diagrama de líneas.
 
-Utiliza la regresión de mínimos cuadrados ordinarios para elegir los parámetros que minimizan el error de una función lineal.
+#### Paso 4: Optimiza el modelo anterior
 
-**Paso 4:**
-
-Usa app.py para crear tu pipeline que seleccione las funciones más importantes.
-
-Guarda tu modelo final en la carpeta 'modelos'.
-
-En tu archivo README escribe un breve resumen.
-
-Solution guide: https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/solution_guide.ipynb
- 
+Después de entrenar el modelo Lasso, si los resultados no son satisfactorios, optimízalo empleando alguna de las técnicas vistas anteriormente.
