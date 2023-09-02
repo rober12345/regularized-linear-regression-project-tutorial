@@ -1,5 +1,5 @@
 <!-- hide -->
-# Regularized linear regression
+# Regularized linear regression - Step by step guide
 <!-- endhide -->
 
 - Understand a new dataset.
@@ -17,7 +17,7 @@ You will not be forking this time, please take some time to read these instructi
 
 ## 🚛 How to deliver this project
 
-Once you are finished creating your linear regression model, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
+Once you have finished solving the exercises, be sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
 
 ## 📝 Instructions
 
@@ -46,3 +46,5 @@ Analyze how $R^2$ evolves when the hyperparameter of the Lasso model changes (yo
 #### Step 4: Optimize the previous model
 
 After training the Lasso model, if the results are not satisfactory, optimize it using one of the techniques seen above.
+
+> NOTE: Solution: https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/solution.ipynb
