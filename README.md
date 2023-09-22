@@ -1,5 +1,5 @@
 <!-- hide -->
-# Regularized linear regression
+# Regularized linear regression - Step by step guide
 <!-- endhide -->
 
 - Understand a new dataset.
@@ -12,12 +12,12 @@
 You will not be forking this time, please take some time to read these instructions:
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Open the recently created repository on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
-3. Once Gitpod VSCode has finished opening, start your project following the Instructions below.
+2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
+3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
 
 ## 🚛 How to deliver this project
 
-Once you are finished creating your linear regression model, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
+Once you have finished solving the exercises, be sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
 
 ## 📝 Instructions
 
@@ -46,3 +46,5 @@ Analyze how $R^2$ evolves when the hyperparameter of the Lasso model changes (yo
 #### Step 4: Optimize the previous model
 
 After training the Lasso model, if the results are not satisfactory, optimize it using one of the techniques seen above.
+
+> NOTE: Solution: https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/solution.ipynb
