@@ -9,8 +9,6 @@
 
 ## 🌱 How to start this project
 
-You will not be forking this time; please take some time to read these instructions:
-
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template/generate).
 2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
 3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
@@ -21,7 +19,7 @@ Once you have finished solving the exercises, be sure to commit your changes, pu
 
 ## 📝 Instructions
 
-### US county-level sociodemographic and health resource data (2018-2019).
+### US county-level sociodemographic and health resource data (2018-2019)
 
 Sociodemographic and health resource data have been collected by county in the United States and we want to find out if there is any relationship between health resources and sociodemographic data.
 
