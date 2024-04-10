@@ -4,7 +4,7 @@
 
 - Understand a new dataset.
 - Process it by applying exploratory data analysis (EDA).
-- Model the data using linear regression.
+- Model the data using regularized linear regression.
 - Analyze the results and optimize the model.
 
 ## 🌱 How to start this project
