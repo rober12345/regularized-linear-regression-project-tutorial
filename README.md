@@ -47,7 +47,7 @@ Be sure to conveniently divide the data set into `train` and `test` as we have s
 
 Start solving the problem by implementing a linear regression model and analyze the results. Then, using the same data and default attributes, build a Lasso model and compare the results with the baseline linear regression.
 
-Analyze how $R^2$ evolves when the hyperparameter of the Lasso model changes (you can for example start testing from a value of 0.0 and work your way up to a value of 20). Draw these values in a line diagram.
+Analyze how $R^2$ evolves when the hyperparameter of the Lasso model changes (you can, for example, start testing from a value of 0.0 and work your way up to a value of 20). Draw these values in a line diagram.
 
 #### Step 4: Optimize the previous model
 
