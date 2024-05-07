@@ -7,11 +7,9 @@
 - Modelar los datos utilizando la regresión lineal regularizada.
 - Analizar los resultados y optimizar el modelo.
 
-## 🌱  Cómo iniciar este proyecto
+## 🌱 Cómo iniciar este proyecto
 
-Esta vez no se hará Fork, tómate un tiempo para leer estas instrucciones:
-
-1. Crea un nuevo repositorio basado en el [proyecto de Machine Learing](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
+1. Crea un nuevo repositorio basado en el [proyecto de Machine Learning](https://github.com/4GeeksAcademy/machine-learning-python-template) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template/generate).
 2. Abre el repositorio creado recientemente en Codespace usando la [extensión del botón de Codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
 3. Una vez que el VSCode del Codespace haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
 
@@ -21,15 +19,21 @@ Una vez que hayas terminado de resolver el caso práctico, asegúrate de confirm
 
 ## 📝 Instrucciones
 
-### Datos sociodemográficos y de recursos de salud a nivel de condado de EE. UU. (2018-2019)
+### Datos socio demográficos y de recursos de salud a nivel de condado de EE. UU. (2018-2019)
 
-Se han recopilado datos sociodemográficos y de recursos de salud por condado en los Estados Unidos y queremos descubrir si existe alguna relación entre los recursos sanitarios y los datos sociodemográficos.
+Se han recopilado datos socio demográficos y de recursos de salud por condado en los Estados Unidos y queremos descubrir si existe alguna relación entre los recursos sanitarios y los datos socio demográficos.
 
 Para ello, es necesario que establezcas una variable objetivo (relacionada con la salud) para llevar a cabo el análisis.
 
 #### Paso 1: Carga del conjunto de datos
 
-El conjunto de datos se puede encontrar en esta carpeta de proyecto bajo el nombre `demographic_health_data.csv`. Puedes cargarlo en el código directamente desde el enlace (`https://raw.githubusercontent.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/main/demographic_health_data.csv`) o descargarlo y añadirlo a mano en tu repositorio. En este conjunto de datos encontrarás una gran cantidad de variables, que encontrarás definidas [aquí](https://raw.githubusercontent.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/main/data_dict.csv).
+El conjunto de datos se puede encontrar en esta carpeta de proyecto bajo el nombre `demographic_health_data.csv`. Puedes cargarlo en el código directamente desde el siguiente enlace:
+
+```text
+https://raw.githubusercontent.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/main/demographic_health_data.csv
+```
+
+O descargarlo y añadirlo a mano en tu repositorio. En este conjunto de datos encontrarás una gran cantidad de variables, que encontrarás definidas [aquí](https://raw.githubusercontent.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/main/data_dict.csv).
 
 #### Paso 2: Realiza un EDA completo
 
@@ -47,4 +51,4 @@ Analiza cómo evoluciona el $R^2$ cuando el hiperparámetro del modelo Lasso cam
 
 Después de entrenar el modelo Lasso, si los resultados no son satisfactorios, optimízalo empleando alguna de las técnicas vistas anteriormente.
 
-> NOTA: Solución: https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/solution.ipynb
+> Nota: También incorporamos muestras de solución en `./solution.ipynb` que te sugerimos honestamente que solo uses si estás atascado por más de 30 minutos o si ya has terminado y quieres compararlo con tu enfoque.
