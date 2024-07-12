@@ -13,11 +13,11 @@
 2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
 3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
 
-## 🚛 How to deliver this project
+## 🚛 How to deliver your linear regression model
 
 Once you have finished solving the exercises, be sure to commit your changes, push them to your repository, and go to 4Geeks.com to upload the repository link.
 
-## 📝 Instructions
+## 📝 Instructions to build the linear regression model
 
 ### US county-level sociodemographic and health resource data (2018-2019)
 
@@ -47,7 +47,7 @@ Start solving the problem by implementing a linear regression model and analyze 
 
 Analyze how $R^2$ evolves when the hyperparameter of the Lasso model changes (you can, for example, start testing from a value of 0.0 and work your way up to a value of 20). Draw these values in a line diagram.
 
-#### Step 4: Optimize the previous model
+#### Step 4: Optimize the previous linear regression model
 
 After training the Lasso model, if the results are not satisfactory, optimize it using one of the techniques seen above.
 
