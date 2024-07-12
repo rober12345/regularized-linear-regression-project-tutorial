@@ -1,14 +1,21 @@
 {
 	"slug" : "regularized-linear-regression-project-tutorial",
-	"title" : "Regularized Linear Regression Project Tutorial",
+	"title" : {
+		"us": "Regularized Linear Regression Project Tutorial",
+		"es": "Tutorial: Construye un modelo de regresion lineal",
+	},
 	"preview": "https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/preview.png?raw=true",
-	"solution": "https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/solution.ipynb",
-	"status": "published",
-	"translations": ["us"],
-	"technologies": ["data-science", "machine-learning"],
+	"solution": {
+		"us": "https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/solution.ipynb",
+		"es": "https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/solution.es.ipynb",
+	},
+	"description" : {
+		"us": "Use a dataset with a lot of variables to practice your regularized linear regression skills and select only some of the features for your model",
+		"es": "Use a dataset with a lot of variables to practice your regularized linear regression skills and select only some of the features for your model"
+	},
+	"translations": ["us", "es"],
+	"technologies": ["linear regression", "regresion lineal", "data-science", "machine-learning", "pandas", "python"],
 	"difficulty": "beginner",
-	"syntax": "python",
 	"duration" : 2,
     	"projectType": "project",
-	"description" : "Use a dataset with a lot of variables to practice your regularized linear regression skills and select only some of the features for your model"
 }
