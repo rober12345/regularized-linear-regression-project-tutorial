@@ -2,12 +2,12 @@
 	"slug" : "regularized-linear-regression-project-tutorial",
 	"title" : {
 		"us": "Build a linear regression model using pandas and python",
-		"es": "Tutorial: Construye un modelo de regresion lineal usando pandas y python",
+		"es": "Tutorial: Construye un modelo de regresion lineal usando pandas y python"
 	},
 	"preview": "https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/preview.png?raw=true",
 	"solution": {
 		"us": "https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/solution.ipynb",
-		"es": "https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/solution.es.ipynb",
+		"es": "https://github.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/blob/main/solution.es.ipynb"
 	},
 	"description" : {
 		"us": "Learn how to build a linear regression model from scratch: understand a new dataset, perform exploratory data analysis (EDA), model the data, and optimize your model. Discover how the $R^2$ evolves by adjusting the Lasso model's hyperparameter up to a value of 20.",
