@@ -17,7 +17,7 @@
 
 Once you have finished solving the exercises, be sure to commit your changes, push them to your repository, and go to 4Geeks.com to upload the repository link.
 
-## 📝 Instructions to build the linear regression model
+## 📝 Instructions to build the linear regression model in python
 
 ### US county-level sociodemographic and health resource data (2018-2019)
 
@@ -25,7 +25,7 @@ Sociodemographic and health resource data have been collected by county in the U
 
 To do this, you need to set a target variable (health-related) to conduct the analysis.
 
-#### Step 1: Loading the dataset
+#### Step 1: Loading the CSV into a python dataset
 
 The dataset can be found in this project folder under the name `demographic_health_data.csv`. You can load it into the code directly from the link:
 
@@ -41,13 +41,13 @@ This second step is vital to ensure that we keep the variables that are strictly
 
 Be sure to conveniently divide the data set into `train` and `test` as we have seen in previous lessons.
 
-#### Step 3: Build a linear regression model
+#### Step 3: Build a linear regression model in python
 
 Start solving the problem by implementing a linear regression model and analyze the results. Then, using the same data and default attributes, build a Lasso model and compare the results with the baseline linear regression.
 
 Analyze how $R^2$ evolves when the hyperparameter of the Lasso model changes (you can, for example, start testing from a value of 0.0 and work your way up to a value of 20). Draw these values in a line diagram.
 
-#### Step 4: Optimize the previous linear regression model
+#### Step 4: Optimize the previous linear regression model using python
 
 After training the Lasso model, if the results are not satisfactory, optimize it using one of the techniques seen above.
 
