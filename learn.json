@@ -14,7 +14,7 @@
 		"es": "Aprende a construir un modelo de regresión lineal desde cero: comprende un nuevo dataset, realiza un análisis exploratorio (EDA), modela los datos y optimiza tu modelo. Descubre cómo el $R^2$ evoluciona al ajustar el hiperparámetro del modelo Lasso hasta un valor de 20."
 	},
 	"translations": ["us", "es"],
-	"technologies": ["linear regression", "regresion lineal", "data-science", "machine-learning", "pandas", "python"],
+	"technologies": ["linear regression", "regresion lineal", "data-science", "machine-learning", "python pandas", "python"],
 	"difficulty": "beginner",
 	"duration" : 2,
     	"projectType": "project"
