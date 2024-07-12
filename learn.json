@@ -17,5 +17,5 @@
 	"technologies": ["linear regression", "regresion lineal", "data-science", "machine-learning", "pandas", "python"],
 	"difficulty": "beginner",
 	"duration" : 2,
-    	"projectType": "project",
+    	"projectType": "project"
 }
